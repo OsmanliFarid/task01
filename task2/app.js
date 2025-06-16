@@ -6,7 +6,7 @@ for (let i = 0; i <= 9; i++) {
     console.log(mesaj);
   }
 }
-fs.writeFile("./a.txt", mesaj, (err, mesaj) => {
+fs.writeFile("./a.txt", mesaj, (err, data) => {
   if (err) {
     console.log("ugursuz emeliyat");
   } else {
